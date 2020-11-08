@@ -1,0 +1,26 @@
+#flex-container {
+  outline-style: 5px solid #ccc;
+  border: 1.5px solid black;
+  width: fit-content;
+  border-radius: 2.5px;
+}
+.button {
+  width: 30px;
+  line-height: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#equal {
+  width: 70px;
+}
+input:focus {
+  outline: 0;
+}
+.button:hover{
+background-color:grey;
+outline: none;
+}
+#delete{
+  width: 100px;
+}
